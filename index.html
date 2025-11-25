@@ -3,33 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>月亮</title>
+    <title>冬日銀月與月亮</title>
     <style>
         body {
             font-family: "Noto Sans", sans-serif;
-            text-align: center;
-            background-color: #e1f0f7;
+            background-color: #f3f6f9;
             margin: 0;
             padding: 0;
             color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: row;
         }
 
         .container {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+        }
+
+        .poem-container {
+            width: 45%;
             padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            border-radius: 8px;
         }
 
         h1 {
             font-size: 36px;
-            margin-top: 50px;
-            color: #4e6c8f;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #4a6a78;
         }
 
         .poem {
             font-size: 28px;
             line-height: 1.6;
-            color: #333;
-            margin-top: 20px;
             font-family: "Noto Serif", serif;
+            color: #333;
         }
 
         .poem span {
@@ -38,30 +53,43 @@
         }
 
         .footer {
-            margin-top: 50px;
+            text-align: center;
             font-size: 14px;
             color: #888;
+            margin-top: 50px;
         }
+
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>月亮</h1>
+        <!-- 冬日銀月 -->
+        <div class="poem-container">
+            <h1>冬日銀月 </h1>
+            <div class="poem">
+                <span>寒風起夜空，</span>
+                <span>銀月照霜重。</span>
+                <span>孤影隨寒舞，</span>
+                <span>寧靜入夢中。</span>
+            </div>
+        </div>
 
-        <div class="poem">
-            <span>月掛天涯照萬家，</span>
-            <span>銀光如水照夜華。</span>
-            <span>不問塵世多紛擾，</span>
-            <span>獨自清輝映空涯。</span>
+        <!-- 月亮 -->
+        <div class="poem-container">
+            <h1>月亮 五言绝句</h1>
+            <div class="poem">
+                <span>月掛天涯照萬家，</span>
+                <span>銀光如水照夜華。</span>
+                <span>不問塵世多紛擾，</span>
+                <span>獨自清輝映空涯。</span>
+            </div>
         </div>
     </div>
 
     <div class="footer">
-       
+      
     </div>
 
 </body>
 </html>
-
-
